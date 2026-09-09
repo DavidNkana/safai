@@ -29,7 +29,7 @@
 
   // Reveal on scroll — only animate elements that start below the fold
   const targets = document.querySelectorAll(
-    '.section__head, .stat, .ecosystem__copy, .ecosystem__diagram, .project, .pillar, .cta__copy, .footer__col, .footer__brand'
+    '.section__head, .stat, .ecosystem__copy, .ecosystem__diagram, .project, .pillar, .plan, .cta__copy, .footer__col, .footer__brand'
   );
   const fold = window.innerHeight * 0.9;
   const animate = [];
