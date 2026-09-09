@@ -144,8 +144,8 @@ main, header, footer { position: relative; z-index: 2; }
   letter-spacing: 0.08em;
 }
 .nav__logo-img {
-  width: 56px;
-  height: 56px;
+  width: 62px;
+  height: 62px;
   border-radius: 10px;
   object-fit: cover;
   display: block;
@@ -156,7 +156,7 @@ main, header, footer { position: relative; z-index: 2; }
   letter-spacing: 0.04em;
 }
 .footer__logo { gap: 12px; }
-.footer__logo .nav__logo-img { width: 56px; height: 56px; border-radius: 10px; }
+.footer__logo .nav__logo-img { width: 62px; height: 62px; border-radius: 10px; }
 .footer__logo .nav__logo-text { font-size: 20px; }
 .nav__links {
   display: flex;
