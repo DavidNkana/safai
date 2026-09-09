@@ -33,11 +33,16 @@
       <!-- Zigzag pattern -->
       <polyline points="0,260 30,230 60,260 90,230 120,260 150,230 180,260" fill="none" stroke="#00853f" stroke-width="2" opacity="0.5"/>
       <polyline points="0,290 30,260 60,290 90,260 120,290 150,260 180,290" fill="none" stroke="#e1232b" stroke-width="2" opacity="0.4"/>
+      <polyline points="0,320 30,290 60,320 90,290 120,320 150,290 180,320" fill="none" stroke="#ffb612" stroke-width="2" opacity="0.45"/>
       <!-- Diamond stack -->
       <g transform="translate(80,330)" fill="none" stroke="#00853f" stroke-width="1.5" opacity="0.5">
         <polygon points="0,-15 15,0 0,15 -15,0"/>
         <polygon points="30,-15 45,0 30,15 15,0"/>
         <polygon points="60,-15 75,0 60,15 45,0"/>
+      </g>
+      <g transform="translate(160,360)" fill="none" stroke="#001489" stroke-width="1.5" opacity="0.5">
+        <polygon points="0,-10 10,0 0,10 -10,0"/>
+        <polygon points="22,-10 32,0 22,10 12,0"/>
       </g>
     </svg>
 
@@ -46,12 +51,19 @@
       <polygon points="360,400 400,400 360,360" fill="#e1232b" opacity="0.22"/>
       <polygon points="280,400 340,400 280,340" fill="#00853f" opacity="0.18"/>
       <polygon points="400,260 360,260 400,220" fill="#e1232b" opacity="0.12"/>
+      <polygon points="400,160 360,160 400,120" fill="#ffb612" opacity="0.18"/>
+      <polygon points="220,400 280,400 220,340" fill="#001489" opacity="0.18"/>
       <polyline points="220,140 250,170 280,140 310,170 340,140 370,170 400,140" fill="none" stroke="#e1232b" stroke-width="2" opacity="0.45"/>
       <polyline points="220,110 250,80 280,110 310,80 340,110 370,80 400,110" fill="none" stroke="#00853f" stroke-width="2" opacity="0.45"/>
+      <polyline points="220,80 250,50 280,80 310,50 340,80 370,50 400,80" fill="none" stroke="#ffb612" stroke-width="2" opacity="0.5"/>
       <g transform="translate(220,70)" fill="none" stroke="#e1232b" stroke-width="1.5" opacity="0.5">
         <polygon points="0,-15 15,0 0,15 -15,0"/>
         <polygon points="30,-15 45,0 30,15 15,0"/>
         <polygon points="60,-15 75,0 60,15 45,0"/>
+      </g>
+      <g transform="translate(330,40)" fill="none" stroke="#001489" stroke-width="1.5" opacity="0.55">
+        <polygon points="0,-10 10,0 0,10 -10,0"/>
+        <polygon points="22,-10 32,0 22,10 12,0"/>
       </g>
     </svg>
 
@@ -60,13 +72,14 @@
         <polygon points="20,80 40,60 40,100" fill="#e1232b"/>
         <polygon points="20,180 40,160 40,200" fill="#00853f"/>
         <polygon points="20,300 40,280 40,320" fill="#e1232b"/>
-        <polygon points="20,420 40,400 40,440" fill="#00853f"/>
+        <polygon points="20,420 40,400 40,440" fill="#ffb612"/>
         <polygon points="20,560 40,540 40,580" fill="#e1232b"/>
         <polygon points="20,700 40,680 40,720" fill="#00853f"/>
       </g>
       <g opacity="0.22" stroke-width="1.5" fill="none">
         <line x1="50" y1="40" x2="70" y2="40" stroke="#e1232b"/>
         <line x1="50" y1="240" x2="70" y2="240" stroke="#00853f"/>
+        <line x1="50" y1="360" x2="70" y2="360" stroke="#ffb612"/>
         <line x1="50" y1="480" x2="70" y2="480" stroke="#e1232b"/>
         <line x1="50" y1="640" x2="70" y2="640" stroke="#00853f"/>
       </g>
@@ -77,8 +90,9 @@
         <polygon points="40,120 60,100 60,140" fill="#00853f"/>
         <polygon points="40,240 60,220 60,260" fill="#e1232b"/>
         <polygon points="40,360 60,340 60,380" fill="#00853f"/>
+        <polygon points="40,420 60,400 60,440" fill="#001489"/>
         <polygon points="40,500 60,480 60,520" fill="#e1232b"/>
-        <polygon points="40,640 60,620 60,660" fill="#00853f"/>
+        <polygon points="40,640 60,620 60,660" fill="#ffb612"/>
       </g>
     </svg>
 
@@ -277,8 +291,8 @@
             <div class="project__body">
               <div class="project__meta">
                 <span class="tag">Automotive</span>
-                <span class="tag tag--green">Web</span>
-                <span class="tag tag--green">Marketplace</span>
+                <span class="tag tag--blue">Web</span>
+                <span class="tag tag--yellow">Marketplace</span>
               </div>
               <h3 class="project__title">CAR FIND</h3>
               <div class="project__domain">Domain: carfind.co.zm</div>
@@ -324,8 +338,8 @@
             <div class="project__body">
               <div class="project__meta">
                 <span class="tag">Media</span>
-                <span class="tag tag--orange">Community</span>
-                <span class="tag tag--orange">News</span>
+                <span class="tag tag--green">Community</span>
+                <span class="tag tag--yellow">News</span>
               </div>
               <h3 class="project__title">Lauduim Biz News App</h3>
               <div class="project__domain">Focus: Local Business &amp; Market Intelligence</div>
@@ -355,7 +369,7 @@
           <article class="plan">
             <div class="plan__head">
               <div class="plan__name">Tab</div>
-              <div class="plan__tag">Starter</div>
+              <div class="plan__tag plan__tag--blue">Starter</div>
             </div>
             <div class="plan__price">
               <span class="plan__currency">ZAR</span>
@@ -401,7 +415,7 @@
           <article class="plan">
             <div class="plan__head">
               <div class="plan__name">Premium</div>
-              <div class="plan__tag plan__tag--green">Full venture</div>
+              <div class="plan__tag plan__tag--yellow">Full venture</div>
             </div>
             <div class="plan__price">
               <span class="plan__currency">ZAR</span>
@@ -443,23 +457,23 @@
               Our process cultivates entire AI-powered eco-systems from concept to scale. Our leadership team has a proven history of success, creating millions in value for our partners and customers and delivering software to thousands of businesses across South Africa.
             </p>
           </div>
-          <div class="profile__pillars">
+<div class="profile__pillars">
             <div class="pillar">
-              <div class="pillar__icon" style="color: var(--orange)">
+              <div class="pillar__icon pillar__icon--red">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></svg>
               </div>
               <div class="pillar__title">Build</div>
               <div class="pillar__text">We design and engineer every product end-to-end.</div>
             </div>
             <div class="pillar">
-              <div class="pillar__icon" style="color: var(--green)">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91 1.41-1.41 2.71-2.41 4.59-3.59.59-.37 1.32-.04 1.5.62.36 1.32.95 2.65 1.79 3.79.61.83 1.24 1.24 2.06 1.5.83.26 1.5.66 1.5 1.5v.59c0 .83-.67 1.5-1.5 1.5h-2c-2.5 0-4.5-1-6-2.5l-3.5-3.5z"/><path d="m15 5 3 3"/><path d="M9 11l-2 2"/></svg>
+              <div class="pillar__icon pillar__icon--blue">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91 1.41-1.41 2.71-2.41 4.59-3.59.59-.37 1.32-.04 1.5.62.36 1.32.95 2.65 1.79 3.79.61.83 1.24 1.24 2.06 1.5.83.26 1.5.66 1.5 1.5v.59c0 .83-.67 1.5-1.5 1.5h-2c-2.5 0-4.5-1-6-2.5l-3.5-3.5z"/><path d="m15 5 3 3"/><path d="M9 11-2 2"/></svg>
               </div>
               <div class="pillar__title">Launch</div>
               <div class="pillar__text">Real users, real markets — we ship to the community.</div>
             </div>
             <div class="pillar">
-              <div class="pillar__icon" style="color: var(--orange)">
+              <div class="pillar__icon pillar__icon--yellow">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 9-9 9 9 0 0 1 9 9 9 9 0 0 1-9 9 9 9 0 0 1-9-9z"/><path d="M12 7v5l3 2"/></svg>
               </div>
               <div class="pillar__title">Operate</div>
