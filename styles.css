@@ -756,6 +756,27 @@ main, header, footer { position: relative; z-index: 2; }
 .plan--featured .check { background: rgba(225, 35, 43, 0.18); }
 .plan--featured .check::after { border-color: var(--orange); }
 
+.plan--enterprise {
+  background:
+    radial-gradient(600px 300px at 100% 0%, rgba(255, 182, 18, 0.1), transparent 60%),
+    radial-gradient(500px 300px at 0% 100%, rgba(0, 20, 137, 0.1), transparent 60%),
+    var(--surface);
+  border-color: rgba(255, 182, 18, 0.32);
+}
+.plan--enterprise:hover { border-color: var(--yellow); }
+.plan--enterprise .check { background: rgba(255, 182, 18, 0.15); }
+.plan--enterprise .check::after { border-color: var(--yellow); }
+.plan--enterprise .plan__amount--custom { color: var(--yellow); }
+
+.plan__price--custom {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 6px;
+}
+.plan__amount--custom {
+  font-size: clamp(28px, 3.5vw, 36px);
+}
+
 .btn--block { width: 100%; justify-content: center; }
 
 .pricing__footnote {
