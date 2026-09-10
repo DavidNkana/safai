@@ -244,13 +244,13 @@ main, header, footer { position: relative; z-index: 2; }
 .hero__art {
   position: absolute;
   top: 50%;
-  right: clamp(-60px, -4vw, -20px);
+  right: clamp(20px, 2vw, 60px);
   transform: translateY(-50%);
-  width: clamp(220px, 36vw, 420px);
+  width: clamp(220px, 32vw, 380px);
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 22px;
+  gap: 20px;
   z-index: 0;
 }
 .hero__mark {
@@ -279,16 +279,18 @@ main, header, footer { position: relative; z-index: 2; }
 .store-badge {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  padding: 10px 16px;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid var(--border-strong);
+  gap: 12px;
+  padding: 12px 18px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 14px;
   color: #fff;
+  text-decoration: none;
   transition: all 0.2s ease;
   flex: 1 1 auto;
-  min-width: 140px;
+  min-width: 150px;
   justify-content: center;
+  backdrop-filter: blur(8px);
 }
 .store-badge:hover {
   background: rgba(255, 255, 255, 0.08);
@@ -296,8 +298,8 @@ main, header, footer { position: relative; z-index: 2; }
   transform: translateY(-2px);
 }
 .store-badge svg {
-  width: 22px;
-  height: 22px;
+  width: 26px;
+  height: 26px;
   flex-shrink: 0;
 }
 .store-badge__text {
@@ -315,7 +317,7 @@ main, header, footer { position: relative; z-index: 2; }
 }
 .store-badge__text strong {
   font-family: var(--font-display);
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: -0.01em;
 }
