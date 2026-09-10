@@ -156,8 +156,7 @@ main, header, footer { position: relative; z-index: 2; }
   letter-spacing: 0.04em;
 }
 .footer__logo { gap: 12px; }
-.footer__logo .nav__logo-img { width: 62px; height: 62px; border-radius: 10px; }
-.footer__logo .nav__logo-text { font-size: 20px; }
+.footer__logo .nav__logo-img { width: 108px; height: 108px; border-radius: 16px; }
 .nav__links {
   display: flex;
   align-items: center;
@@ -970,7 +969,7 @@ main, header, footer { position: relative; z-index: 2; }
   gap: 40px;
   margin-bottom: 60px;
 }
-.footer__brand { max-width: 320px; }
+.footer__brand { max-width: 280px; }
 .footer__legal-name {
   margin-top: 18px;
   font-weight: 600;
